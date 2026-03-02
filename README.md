@@ -37,7 +37,7 @@ internet, dan hanya berfokus pada tampilan antarmuka (UI).
 ## Struktur Widget (Gambaran Umum)
 
 Struktur widget utama pada aplikasi ini adalah sebagai berikut:
-MaterialApp
+'''MaterialApp
 └── Scaffold
 ├── AppBar
 └── Body
@@ -47,7 +47,7 @@ MaterialApp
 ├── Text (Judul)
 ├── Row (Gambar Cosplay)
 ├── Container (Detail)
-│ └── Column (Teks Deskripsi)
+│ └── Column (Teks Deskripsi)'''
 
 Struktur ini digunakan agar tampilan aplikasi tetap rapi dan dapat menyesuaikan
 dengan berbagai ukuran layar.
