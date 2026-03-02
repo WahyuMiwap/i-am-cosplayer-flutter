@@ -44,11 +44,24 @@ MaterialApp
      └── Body
          └── LayoutBuilder
              └── SingleChildScrollView
-                 └── Column
-                     ├── Text (Judul)
-                     ├── Row (Gambar Cosplay)
-                     ├── Container (Detail)
-                     │   └── Column (Teks Deskripsi)
+                 └── Center
+                     └── ConstrainedBox
+                         └── Container (Kartu Utama)
+                             └── Column
+                                 ├── Text (Judul: Douyin Cosplay)
+                                 ├── Text (Subjudul)
+                                 ├── Row (Gambar Cosplay)
+                                 │   ├── AlbumCover
+                                 │   └── AlbumCover
+                                 ├── Text (DETAILS)
+                                 ├── Divider
+                                 ├── Container (Box Detail)
+                                 │   └── Column
+                                 │       ├── _DetailRow
+                                 │       ├── _DetailRow
+                                 │       ├── _DetailRow
+                                 │       └── _DetailRow
+                                 └── Text (Credit)
 ```
 
 Struktur ini digunakan agar tampilan aplikasi tetap rapi dan dapat menyesuaikan
