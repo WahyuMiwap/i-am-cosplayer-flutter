@@ -39,16 +39,16 @@ internet, dan hanya berfokus pada tampilan antarmuka (UI).
 Struktur widget utama pada aplikasi ini adalah sebagai berikut:
 ```
 MaterialApp
-└── Scaffold
-├── AppBar
-└── Body
-└── LayoutBuilder
-└── SingleChildScrollView
-└── Column
-├── Text (Judul)
-├── Row (Gambar Cosplay)
-├── Container (Detail)
-│ └── Column (Teks Deskripsi)
+ └── Scaffold
+     ├── AppBar
+     └── Body
+         └── LayoutBuilder
+             └── SingleChildScrollView
+                 └── Column
+                     ├── Text (Judul)
+                     ├── Row (Gambar Cosplay)
+                     ├── Container (Detail)
+                     │   └── Column (Teks Deskripsi)
 ```
 
 Struktur ini digunakan agar tampilan aplikasi tetap rapi dan dapat menyesuaikan
