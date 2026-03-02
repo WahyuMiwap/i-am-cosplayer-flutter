@@ -37,7 +37,7 @@ internet, dan hanya berfokus pada tampilan antarmuka (UI).
 ## Struktur Widget (Gambaran Umum)
 
 Struktur widget utama pada aplikasi ini adalah sebagai berikut:
-'''MaterialApp
+```MaterialApp
 └── Scaffold
 ├── AppBar
 └── Body
@@ -47,7 +47,7 @@ Struktur widget utama pada aplikasi ini adalah sebagai berikut:
 ├── Text (Judul)
 ├── Row (Gambar Cosplay)
 ├── Container (Detail)
-│ └── Column (Teks Deskripsi)'''
+│ └── Column (Teks Deskripsi)```
 
 Struktur ini digunakan agar tampilan aplikasi tetap rapi dan dapat menyesuaikan
 dengan berbagai ukuran layar.
@@ -64,14 +64,14 @@ dengan berbagai ukuran layar.
 ---
 
 ## Struktur Folder Project
-lib/
+```lib/
 └── main.dart
 assets/
 ├── langa.jpg
 └── yoshiki.jpg
 pubspec.yaml
 pubspec.lock
-README.md
+README.md```
 
 ---
 
